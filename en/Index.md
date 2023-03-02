@@ -4,4 +4,5 @@ This is the documentation for DICE.
 
 ## Getting Started
 
-Documentation!
+### DICE Complete
+- Agent Installation (AgentInstallation.md)
