@@ -1,0 +1,24 @@
+# DICE Roles
+
+- Asset Manager
+    - Access to device information
+    - Access to order information
+- Can manage custom columns
+    - Can manage asset management fields and data
+    - Can view geolocation information
+-	Help Desk Support
+    - Access to device information
+    - Access to device specific order information
+    - Can use remote management features for devices
+- Purchasing
+    - Access to device
+    - Access to order information
+-	Sales
+    - Access to device
+    - Access to order information
+    - Access to ticket information
+-	Support
+    - Access to device information
+    - Access to device specific order information
+    - Access to ticket information
+    - Can edit custom columns
