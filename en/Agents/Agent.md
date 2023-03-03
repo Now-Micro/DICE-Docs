@@ -15,7 +15,7 @@ The agent can be installed via GPO, script, command line, Microsoft MEMCM (Confi
 For a silent installation, the following command can be used.  Substitute <APIKEY> with your 
 API key from Organization | Organations Management | Api Key
 
-```
+```csharp
 	msiexec /i "NowMicro.Dice.Agent.Installer.msi" /qn PSK=<APIKEY>
 ```
 
