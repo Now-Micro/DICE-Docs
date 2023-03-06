@@ -1,8 +1,30 @@
-{  
-   "items":[  
-      {  
-         "text":"Getting Started",
-         "path":"Index.md"
-      }
-   ]
+{
+  "items": [
+    {
+      "text": "Getting Started",
+      "path": "Index.md"
+    },
+    {
+      "text": "DICE Overview",
+      "items": [
+        {
+          "text": "Roles",
+            "path": "Identity/Roles.md"
+        }
+      ]
+    },
+    {
+      "text": "Dice Complete",
+      "items": [
+        {
+          "text": "DICE Complete Overview",
+          "path": "DiceComplete.md"
+        },
+        {
+          "text": "Agent Installation",
+          "path": "Agents/Agent.md"
+        }
+      ]
+    }
+  ]
 }
