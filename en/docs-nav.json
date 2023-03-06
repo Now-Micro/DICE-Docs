@@ -25,6 +25,15 @@
           "path": "Agents/Agent.md"
         }
       ]
+    },
+    {
+      "text": "Release Notes",
+      "items": [
+        {
+          "text": "5.0.0",
+          "path": "Releases/5.0.0.md"
+        }
+      ]
     }
   ]
 }
