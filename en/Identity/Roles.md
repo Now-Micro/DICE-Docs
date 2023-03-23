@@ -3,7 +3,7 @@
 - Asset Manager
     - Access to device information
     - Access to order information
-- Can manage custom columns
+    - Can manage custom columns
     - Can manage asset management fields and data
     - Can view geolocation information
 -	Help Desk Support
