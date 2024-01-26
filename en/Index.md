@@ -4,7 +4,7 @@ A single pane of glass tool for IT procurement, asset management and remote devi
 
 Additional topics are available in the navigation menu.
 
-## DICE Tiers Overview
+## DICE License Edition Overview
 
 ### DICE
 The base DICE app has features for Now Micro's customers to easily find and integrate information on devices purchased:
@@ -21,5 +21,4 @@ DICE Complete is a licensed product that provides additional features for Asset 
 - User editable fields
 - Device monitoring
 - IoT device management
-- Geotracking
-
+- Geotracking/asset locations
