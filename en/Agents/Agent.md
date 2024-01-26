@@ -19,3 +19,5 @@ API key from Organization | Organations Management | Api Key
 	msiexec /i "NowMicro.Dice.Agent.Installer.msi" /qn PSK=<APIKEY>
 ```
 
+### Intune Installation Example
+![image](/en/Agents/4.1/MicrosoftIntunePackageSetup.png)
