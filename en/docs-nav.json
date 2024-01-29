@@ -14,11 +14,15 @@
       ]
     },
     {
-      "text": "Dice Complete",
+      "text": "DICE Complete",
       "items": [
         {
           "text": "DICE Complete Overview",
           "path": "DICEComplete/DiceComplete.md"
+        },
+        {
+          "text": "Onboarding",
+          "path": "DICEComplete/Onboarding.md"
         },
         {
           "text": "Asset Management",
