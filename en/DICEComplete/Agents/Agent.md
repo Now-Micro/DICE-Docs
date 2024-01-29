@@ -8,17 +8,24 @@ Current Agent (4.1)
 ## Windows 
 The agent can be installed via GPO, script, command line, Microsoft MEMCM (ConfigMgr) or Microsoft Intune.
 
-### Download
-[Windows](https://github.com/Now-Micro/DICE-Docs/raw/main/en/Agents/4.1/NowMicro.Dice.Agent.Installer.msi)
+### MSI Installation
 
-### Windows command line options
+#### Download
+[Windows Agent MSI](https://github.com/Now-Micro/DICE-Docs/raw/main/en/DICEComplete/Agents/4.1/NowMicro.Dice.Agent.Installer.msi)
+
+#### MSI command line options
 For a silent installation, the following command can be used.  Substitute <APIKEY> with your 
-API key from Organization | Organations Management | Api Key
+API key from Organization | Organization Management | Api Key
 
 ```csharp
 	msiexec /i "NowMicro.Dice.Agent.Installer.msi" /qn PSK=<APIKEY>
 ```
 
+### Microsoft Intune Installation
+See the image below for a basic MSI based installation performed by Microsoft Intune.
+
+![image](/en/DICEComplete/Agents/4.1/MicrosoftIntunePackageSetup.png)
+
 ## Apple MacOS
 Please contact support for the newest agent download.
 
@@ -29,5 +36,5 @@ Please contact support for the newest agent download.
 
 ## Linux
 Please contact support for the newest agent download.
-### Intune Installation Example
-![image](/en/Agents/4.1/MicrosoftIntunePackageSetup.png)
+
+

@@ -7,3 +7,4 @@ Creating a service account to access the DICE REST API is recommended.  A servic
 
 ## Example PowerShell script
 
+Please contact support for our example PowerShell script that demonstrates device exporting.
