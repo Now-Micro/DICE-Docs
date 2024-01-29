@@ -19,3 +19,8 @@ API key from Organization | Organations Management | Api Key
 	msiexec /i "NowMicro.Dice.Agent.Installer.msi" /qn PSK=<APIKEY>
 ```
 
+## Apple MacOS
+Please contact support for the newest agent download.
+
+## Linux
+Please contact support for the newest agent download.

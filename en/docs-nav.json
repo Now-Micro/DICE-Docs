@@ -9,7 +9,7 @@
       "items": [
         {
           "text": "Roles",
-            "path": "Identity/Roles.md"
+          "path": "Identity/Roles.md"
         }
       ]
     },
@@ -18,11 +18,24 @@
       "items": [
         {
           "text": "DICE Complete Overview",
-          "path": "DiceComplete.md"
+          "path": "DICEComplete/DiceComplete.md"
+        },
+        {
+          "text": "Asset Management",
+          "items": [
+            {
+              "text": "Asset Management Overview",
+              "path": "DICEComplete/AssetManagement/AssetManagement.md"
+            },
+            {
+              "text": "Importing Assets",
+              "path": "DICEComplete/AssetManagement/ImportingAssets.md"
+            }
+          ]
         },
         {
           "text": "Agent Installation",
-          "path": "Agents/Agent.md"
+          "path": "DICEComplete/Agents/Agent.md"
         }
       ]
     },
