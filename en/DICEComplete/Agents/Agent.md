@@ -24,5 +24,10 @@ Please contact support for the newest agent download.
 
 ## Linux
 Please contact support for the newest agent download.
+## Apple MacOS
+Please contact support for the newest agent download.
+
+## Linux
+Please contact support for the newest agent download.
 ### Intune Installation Example
 ![image](/en/Agents/4.1/MicrosoftIntunePackageSetup.png)
