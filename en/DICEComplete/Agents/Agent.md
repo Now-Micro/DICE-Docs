@@ -24,7 +24,7 @@ API key from Organization | Organization Management | Api Key
 ### Microsoft Intune Installation
 See the image below for a basic MSI based installation performed by Microsoft Intune.
 
-![image](/en/DICEComplete/Agents/4.1/MicrosoftIntunePackageSetup.png)
+![image](https://github.com/Now-Micro/DICE-Docs/raw/main/en/DICEComplete/Agents/4.1/MicrosoftIntunePackageSetup.png)
 
 ## Apple MacOS
 Please contact support for the newest agent download.
