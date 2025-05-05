@@ -2,6 +2,8 @@
 
 DICE has several out of box roles designed to cover common customer use cases.  Some features may not be available to a user assigned a role if the organization is not licensed for the feature.
 
+Roles are managed under [Organization Management](https://diceapp.nowmicro.com/Organization).
+
 -   Asset Manager
     - Access to Device Management
     - Access to Orders

@@ -7,7 +7,6 @@ The agent must be installed to take advantage of these features and consists of 
 ## DICE Complete Agent (Windows)
 The DICE Complete agent can be installed via GPO, script, command line, Microsoft MEMCM (ConfigMgr) or Microsoft Intune.
 
-
 ### Installation 
 Agent download: [Windows Agent MSI](https://github.com/Now-Micro/DICE-Docs/raw/main/en/DICEComplete/Agents/4.1/NowMicro.Dice.Agent.Installer.msi)
 
