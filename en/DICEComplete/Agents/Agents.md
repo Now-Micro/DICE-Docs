@@ -56,14 +56,25 @@ Get-Service DICECompleteKVMAgentService
 $serviceStatus = (Get-Service DICECompleteKVMAgentService).Status
 
 # Get the Agent Values
-$agentValues = (Get-ItemProperty -Path "Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Open Source\DICECompleteKVMAgentService")
+$primaryRegistryPath = "Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Open Source\DICECompleteKVMAgentService"
+$secondaryRegistryPath = "Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Open Source\DICEComplete"
 
-$meshId = $agentValues.MeshId
-$nodeId = $agentValues.NodeId
-$meshServerId = $agentValues.MeshServerId
+if (Test-Path $primaryRegistryPath) {
+    $registryPath = $primaryRegistryPath
+}
+elseif (Test-Path $secondaryRegistryPath) {
+    $registryPath = $secondaryRegistryPath
+}
+else {
+    Throw "Neither registry key was found: `n  $primaryRegistryPath`n  $secondaryRegistryPath"
+}
+
+$agentValues = Get-ItemProperty -Path $registryPath
+$meshId        = $agentValues.MeshId
+$nodeId        = $agentValues.NodeId
+$meshServerId  = $agentValues.MeshServerId
 $meshServerUrl = $agentValues.MeshServerUrl
 
-# Write the agent values to the alternate registry path
 $alternateRegistryPath = "Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Open Source\MeshAgent2"
 Set-ItemProperty -Path $alternateRegistryPath -Name MeshId -Value $meshId
 Set-ItemProperty -Path $alternateRegistryPath -Name NodeId -Value $nodeId
@@ -71,8 +82,8 @@ Set-ItemProperty -Path $alternateRegistryPath -Name MeshServerId -Value $meshSer
 Set-ItemProperty -Path $alternateRegistryPath -Name MeshServerUrl -Value $meshServerUrl
 
 # Restart the KVM service
-Restart-Service DICECompleteKVMAgentService
+Restart-Service DICECompleteKVMAgentService -Force
 
 # Restart the non-interactive agent service
-Restart-Service NowMicroDICE
+Restart-Service NowMicroDICE -Force
 ```
