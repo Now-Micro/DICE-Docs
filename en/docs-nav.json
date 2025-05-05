@@ -8,6 +8,10 @@
       "text": "DICE Overview",
       "items": [
         {
+          "text": "Registration",
+          "path": "Identity/Register.md"
+        },
+        {
           "text": "Roles",
           "path": "Identity/Roles.md"
         }

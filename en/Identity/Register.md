@@ -1,4 +1,4 @@
-#Registration and Invites
+# Registration and Invites
 
 There are two primary ways to register with DICE:
 - Receive an email invitation from an Organization Administrator
